@@ -19,13 +19,13 @@ function isNotANumber(value: any) {
   return value != null && Number.isNaN(+value);
 }
 
-export async function utcTimeSync({
+export function utcTimeSync({
   startDatetime,
   offset,
-}: UTCTimeOpts) {
+}: UTCTimeOpts = {} as UTCTimeOpts) {
   const isNullishDatetime = startDatetime == null;
 
-  if (!isNullishDatetime && !isValidDatetime) {
+  if (!isNullishDatetime && !isValidDatetime(startDatetime)) {
     throw new TypeError('Param opts[startDatetime] is not a valid datetime');
   }
 
@@ -41,7 +41,7 @@ export async function utcTimeSync({
   }
 
   if (isNotANumber(minute)) {
-    throw new TypeError('Param opts[offset][minute] is no a number');
+    throw new TypeError('Param opts[offset][minute] is not a number');
   }
 
   if (isNotANumber(second)) {
@@ -67,7 +67,7 @@ export async function utcTimeSync({
   ));
 }
 
-export async function utcTime(opts: UTCTimeOpts) {
+export async function utcTime(opts?: UTCTimeOpts) {
   return utcTimeSync(opts);
 }
 
