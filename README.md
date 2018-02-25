@@ -27,6 +27,18 @@
 
 ## Table of contents
 
+  - [Pre-requisites](#pre-requisites)
+  - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+      - [Node.js](#nodejs)
+      - [Native ES modules or TypeScript](#native-es-modules-or-typescript)
+  - [API Reference](#api-reference)
+    - [UTCTimeOpts](#utctimeopts)
+    - [utcTime([UTCTimeOps])](#utctimeutctimeops)
+    - [utcTimeSync([UTCTimeOpts])](#utctimesyncutctimeopts)
+  - [License](#license)
+  
 ## Pre-requisites
 
 - [Node.js][node-js-url] >= 8.9.0
