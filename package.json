@@ -1,6 +1,6 @@
 {
   "name": "@motss/utc-time",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Generate JavaScript's UTC time with various offsets",
   "keywords": [
     "node",
