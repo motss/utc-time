@@ -1,11 +1,13 @@
 {
-  "name": "utc-time",
+  "name": "@motss/utc-time",
   "version": "0.0.0",
-  "private": true,
-  "description": "Generate JavaScript&#39;s UTC time with various offsets",
+  "description": "Generate JavaScript's UTC time with various offsets",
   "keywords": [
     "node",
+    "time",
+    "time-offset",
     "typescript",
+    "utc",
     "utc-time"
   ],
   "homepage": "https://github.com/motss/utc-time",
