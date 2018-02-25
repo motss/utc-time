@@ -273,7 +273,7 @@ describe('utc-time', () => {
         now.getUTCHours(),
         now.getUTCMinutes(),
         now.getUTCSeconds(),
-        now.getUTCMilliseconds() + millisecond,
+        now.getUTCMilliseconds() + millisecond
       )))
     );
   });
