@@ -1,3 +1,5 @@
+🚨 No longer maintained. Moved to [@reallyland/node_mod](https://github.com/reallyland/node_mod). 🚨
+
 <div align="center" style="text-align: center;">
   <h1 style="border-bottom: none;">@motss/utc-time</h1>
 
